@@ -56,14 +56,14 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 .wm-secondary-container .wm-subnav-nav-list a {
   text-transform: uppercase;
   font-size: 0.95rem;
-  color: var(--lightAccent-hsl);
+  color: hsla(var(--light-hsl), 1);
   width: 50px;
   padding: 0.45em 0em 0.55em 0em;
   text-align: center;
   margin: 0px 0px;
 }
 .wm-secondary-container .wm-subnav-nav-list a:hover, .wm-secondary-container .wm-subnav-nav-list a:active {
-  color: var(--white-hsl);
+  color: hsla(var(--white-hsl), 1);
 }
 
 [data-wm-social=youtube] path {
