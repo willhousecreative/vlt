@@ -143,4 +143,17 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   .fe-block.fe-block-1556b6a4070df7e35663 {
     grid-area: 1/4/3/5;
   }
+}
+
+/* Page Specific Styles */
+@media (min-width: 768px) {
+  .fe-block.fe-block-yui_3_17_2_1_1685034427653_6308 {
+    grid-area: 4/2/3/8;
+  }
+}
+
+@media (min-width: 768px) {
+  .fe-block.fe-block-yui_3_17_2_1_1685034427653_11089 {
+    grid-area: 1/20/5/26;
+  }
 }/*# sourceMappingURL=styles.css.map */
