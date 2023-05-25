@@ -1,3 +1,5 @@
+$white: --white-hsl; // this is the white hsl
+
 #block-yui_3_17_2_1_1684972261635_11919 .sqs-shape-rectangle{
-    background: red;
+    background: var($white);
 }
