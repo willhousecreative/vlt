@@ -1,5 +1,9 @@
-/* Media Queries */
-/* Color Variables */
+/* Media Queries Mixins*/
+@define-mixin atLarge {
+  @media screen and (min-width: 1272px) {
+    @mixin-content;
+  }
+}
 /* Fonts */
 @font-face {
   font-family: "glacial_indifferenceregular";

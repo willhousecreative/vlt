@@ -1,19 +1,32 @@
+// Variables
 $white: --white-hsl; // this is the white hsl
 $black: --black-hsl;
 $light: --lightAccent-hsl;
 $accent: --accent-hsl;
 $dark: --darkAccent-hsl;
 
-/* Media Queries */
+
+/* Media Queries Mixins*/
+
+// @define-mixin atSmall{
+//     @media(min-width: 530px){
+//         @mixin-content
+//     }
+// }
+// @define-mixin atMedium{
+//     @media(min-width: 800px){
+//         @mixin-content
+//     }
+// }
+@define-mixin atLarge{
+    @media screen and (min-width: 1272px){
+        @mixin-content
+    }
+}
+
 // @min1272: ~"@media screen and (min-width: 1272px)";
 
-/* Color Variables */
-// @whitehsl:~"hsl(var(--white-hsl))";
-// @whitehex:~"#FFFFFF";
-// @blackhsl:~"hsl(var(--black-hsl))";
-// @lighthsl:~"hsl(var(--lightAccent-hsl))";
-// @accenthsl:~"hsl(var(--accent-hsl))";
-// @darkhsl:~"hsl(var(--darkAccent-hsl))";
+
 /* Fonts */
 @font-face {
     font-family: 'glacial_indifferenceregular';
@@ -51,6 +64,11 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 .header-title-nav-wrapper,
 .header-display-desktop{
   align-items: flex-end;
+}
+.header-nav-item{
+    @mixin atLarge{
+        font-size: calc(1.25 * 1rem);
+    } 
 }
 /* Secondary Navigation */
 .wm-secondary-container{
