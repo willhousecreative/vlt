@@ -53,12 +53,11 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 }
 /* Secondary Navigation */
 .wm-secondary-container{
-  background-color: var($dark);
   justify-content:flex-end!important;
   padding:0px;
 }
 .wm-secondary-nav{
-  background-color: var($dark);
+    background-color: hsla(var($dark),1);
 }
 .wm-subnav-nav-list{
   margin-right: 0px;
@@ -122,6 +121,7 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
+/* This was an idea for an animation but it really wasn't necessary so it's commented out.
 // .primary-button-style-solid .site-wrapper .sqs-button-element--primary::after,
 // .secondary-button-style-solid .sqs-button-element--secondary::after,
 // .tertiary-button-style-solid .sqs-button-element--tertiary::after{
@@ -148,3 +148,4 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 //     transform: scaleX(1.5) scaleY(1.6);
 //     opacity: 0;
 // }
+*/
