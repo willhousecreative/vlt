@@ -1,4 +1,100 @@
 $white: --white-hsl; // this is the white hsl
+$black: --black-hsl;
+$light: --lightAccent-hsl;
+$accent: --accent-hsl;
+$dark: --darkAccent-hsl;
+
+/* Media Queries */
+// @min1272: ~"@media screen and (min-width: 1272px)";
+
+/* Color Variables */
+// @whitehsl:~"hsl(var(--white-hsl))";
+// @whitehex:~"#FFFFFF";
+// @blackhsl:~"hsl(var(--black-hsl))";
+// @lighthsl:~"hsl(var(--lightAccent-hsl))";
+// @accenthsl:~"hsl(var(--accent-hsl))";
+// @darkhsl:~"hsl(var(--darkAccent-hsl))";
+/* Fonts */
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a774a7d815846799f0b/1684900471021/glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d3664f8d6a6264f80659b/1684878948587/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'glacial_indifferenceitalic';
+    src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a734066831f869987f3/1684900467329/glacialindifference-italic-webfont.woff2') format('woff2'),
+         url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d366a7d59bb793ac5393b/1684878954983/glacialindifference-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswald_regularregular';
+    src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a68438d85376c8a75fb/1684900456429/oswald-regular-webfont.woff2') format('woff2'),
+         url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d367678e46a2ee4f8e645/1684878966790/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Font Overrides */
+h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper .sqs-button-element--primary, #siteWrapper .sqs-button-element--tertiary, #siteWrapper .sqs-button-element--secondary  {font-family: 'oswald_regularregular';}
+.site-wrapper, .sqs-catalog-item-list, .sqs-block-html pre code{
+  font-family: 'glacial_indifferenceregular';
+}
+/* Global Header */
+.header .header-announcement-bar-wrapper{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* Primary Navigation */
+.header-title-nav-wrapper{
+  align-items: flex-end;
+}
+/* Secondary Navigation */
+.wm-secondary-container{
+  background-color: var($dark);
+  justify-content:flex-end!important;
+  padding:0px;
+}
+.wm-secondary-nav{
+  background-color: var($dark);
+}
+.wm-subnav-nav-list{
+  margin-right: 0px;
+}
+.wm-secondary-container .wm-subnav-nav-list a{
+  text-transform:uppercase;
+  font-size: .95rem;
+  color: var($light);
+  &:hover,
+  &:active {
+    color: var($white);
+  }
+  width: 50px;
+  padding: .45em 0em .55em 0em;
+  text-align:center;
+  margin: 0px 0px;
+}
+
+[data-wm-social='youtube'] path{
+  stroke: var($light);
+  &:hover,
+  &:active {
+     stroke: var($white);
+  }
+}
+[data-wm-social='facebook'] path, 
+[data-wm-social='instagram'] path,
+[data-wm-social='facebook'] svg,
+[data-wm-social='instagram'] svg{
+  fill: var($light);
+  &:hover,
+  &:active {
+     fill: var($white);
+  }
+}
+
 
 #block-yui_3_17_2_1_1684972261635_11919 .sqs-shape-rectangle{
     background: var($white);
