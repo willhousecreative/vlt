@@ -120,6 +120,10 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+section[data-section-id="646f810a69ab3003b658bea7"] button.newsletter-form-button.sqs-system-button.sqs-editable-button-layout.sqs-editable-button-style.sqs-editable-button-shape.sqs-button-element--primary {
+  width: 100%;
+}
+
 section[data-section-id="646f810a69ab3003b658bea7"] .newsletter-form-button-wrapper.submit-wrapper {
   min-width: 18rem;
 }
