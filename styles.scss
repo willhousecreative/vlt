@@ -5,19 +5,7 @@ $light: --lightAccent-hsl;
 $accent: --accent-hsl;
 $dark: --darkAccent-hsl;
 
-
 /* Media Queries Mixins*/
-
-// @define-mixin atSmall{
-//     @media(min-width: 530px){
-//         @mixin-content
-//     }
-// }
-// @define-mixin atMedium{
-//     @media(min-width: 800px){
-//         @mixin-content
-//     }
-// }
 @mixin atLarge {
     @media screen and (min-width: 1272px){ @content; }
 }
@@ -53,6 +41,11 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 /* Global Header */
 .header .header-announcement-bar-wrapper{
   padding-top: 0px;
+  padding-bottom: 15px;
+}
+// when sticky
+.tweak-fixed-header:not(.sqs-edit-mode-active):not(.sqs-site-styles-active) .header.shrink .header-announcement-bar-wrapper{
+  padding-top: 0;
   padding-bottom: 15px;
 }
 /* Primary Navigation */
@@ -124,31 +117,3 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
-/* This was an idea for an animation but it really wasn't necessary so it's commented out.
-// .primary-button-style-solid .site-wrapper .sqs-button-element--primary::after,
-// .secondary-button-style-solid .sqs-button-element--secondary::after,
-// .tertiary-button-style-solid .sqs-button-element--tertiary::after{
-//     content: "";
-//     display: inline-block;
-//     height: 100%;
-//     width: 100%;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     z-index: -1;
-//     transition: all .4s;
-// }
-// .primary-button-style-solid .site-wrapper .sqs-button-element--primary::after,
-// .secondary-button-style-solid .sqs-button-element--secondary::after{
-//     background-color: var($white);
-// }
-// .tertiary-button-style-solid .sqs-button-element--tertiary::after{
-//     background-color: var($accent);
-// }
-// .primary-button-style-solid .site-wrapper .sqs-button-element--primary:hover::after,
-// .secondary-button-style-solid .sqs-button-element--secondary:hover::after,
-// .tertiary-button-style-solid .sqs-button-element--tertiary:hover::after{
-//     transform: scaleX(1.5) scaleY(1.6);
-//     opacity: 0;
-// }
-*/
