@@ -66,27 +66,9 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   color: hsla(var(--white-hsl), 1);
 }
 
-[data-wm-social=youtube] path {
-  stroke: var(--lightAccent-hsl);
-}
-[data-wm-social=youtube] path:hover, [data-wm-social=youtube] path:active {
-  stroke: var(--white-hsl);
-}
-
-[data-wm-social=facebook] path,
-[data-wm-social=instagram] path,
-[data-wm-social=facebook] svg,
-[data-wm-social=instagram] svg {
-  fill: var(--lightAccent-hsl);
-}
-[data-wm-social=facebook] path:hover, [data-wm-social=facebook] path:active,
-[data-wm-social=instagram] path:hover,
-[data-wm-social=instagram] path:active,
-[data-wm-social=facebook] svg:hover,
-[data-wm-social=facebook] svg:active,
-[data-wm-social=instagram] svg:hover,
-[data-wm-social=instagram] svg:active {
-  fill: var(--white-hsl);
+#wm-subnav .wm-social-icon-container .wm-social-icon svg, #wm-subnav .wm-social-icon-container .wm-social-icon path {
+  fill: hsla(var(--white-hsl), 1);
+  stroke: hsla(var(--white-hsl), 1);
 }
 
 .secondary-button-style-solid .sqs-button-element--secondary:hover,

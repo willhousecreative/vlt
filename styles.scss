@@ -75,24 +75,28 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   text-align:center;
   margin: 0px 0px;
 }
+#wm-subnav .wm-social-icon-container .wm-social-icon svg, #wm-subnav .wm-social-icon-container .wm-social-icon path{
+    fill: hsla(var(--white-hsl),1);
+    stroke: hsla(var(--white-hsl),1);
+}
 
-[data-wm-social='youtube'] path{
-  stroke: var($light);
-  &:hover,
-  &:active {
-     stroke: var($white);
-  }
-}
-[data-wm-social='facebook'] path, 
-[data-wm-social='instagram'] path,
-[data-wm-social='facebook'] svg,
-[data-wm-social='instagram'] svg{
-  fill: var($light);
-  &:hover,
-  &:active {
-     fill: var($white);
-  }
-}
+// [data-wm-social='youtube'] path{
+//   stroke: var($light);
+//   &:hover,
+//   &:active {
+//      stroke: var($white);
+//   }
+// }
+// [data-wm-social='facebook'] path, 
+// [data-wm-social='instagram'] path,
+// [data-wm-social='facebook'] svg,
+// [data-wm-social='instagram'] svg{
+//   fill: var($light);
+//   &:hover,
+//   &:active {
+//      fill: var($white);
+//   }
+// }
 // buttons
 // redefine the rollover of buttons
 .secondary-button-style-solid .sqs-button-element--secondary:hover,
