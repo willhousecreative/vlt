@@ -1,9 +1,4 @@
 /* Media Queries Mixins*/
-@define-mixin atLarge {
-  @media screen and (min-width: 1272px) {
-    @mixin-content;
-  }
-}
 /* Fonts */
 @font-face {
   font-family: "glacial_indifferenceregular";
@@ -42,6 +37,12 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 .header-title-nav-wrapper,
 .header-display-desktop {
   align-items: flex-end;
+}
+
+@media screen and (min-width: 1272px) {
+  .header-nav-item {
+    font-size: 1.25rem;
+  }
 }
 
 /* Secondary Navigation */

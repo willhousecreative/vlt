@@ -18,14 +18,9 @@ $dark: --darkAccent-hsl;
 //         @mixin-content
 //     }
 // }
-@define-mixin atLarge{
-    @media screen and (min-width: 1272px){
-        @mixin-content
-    }
+@mixin atLarge {
+    @media screen and (min-width: 1272px){ @content; }
 }
-
-// @min1272: ~"@media screen and (min-width: 1272px)";
-
 
 /* Fonts */
 @font-face {
@@ -66,7 +61,7 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   align-items: flex-end;
 }
 .header-nav-item{
-    @mixin atLarge{
+    @include atLarge{
         font-size: calc(1.25 * 1rem);
     } 
 }
