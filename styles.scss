@@ -126,22 +126,22 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
     grid-template-columns: 1fr 1fr 1fr 1fr;
   } 
 }
-.fe-block-yui_3_17_2_1_1685030036608_12051 {
+.fe-block.fe-block-yui_3_17_2_1_1685030036608_12051 {
   @include atMedium{
     grid-area: 1/1/3/2;
   }
 }
-.fe-block-f2e053d4076bec43703a{
+.fe-block.fe-block-f2e053d4076bec43703a{
   @include atMedium{
     grid-area: 1/2/3/3;
   }
 }
-.fe-block-bbe929cae73900289aaf{
+.fe-block.fe-block-bbe929cae73900289aaf{
   @include atMedium{
     grid-area: 1/3/3/4;
   }
 }
-.fe-block-1556b6a4070df7e35663{
+.fe-block.fe-block-1556b6a4070df7e35663{
   @include atMedium{
     grid-area: 1/4/3/5;
   }
