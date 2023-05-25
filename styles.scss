@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 }
 /* Global Header */
 .header .header-announcement-bar-wrapper{
-  padding-top: 15px;
+  padding-top: 0px;
   padding-bottom: 15px;
 }
 /* Primary Navigation */
@@ -72,13 +72,13 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 /* Secondary Navigation */
 .wm-secondary-container{
   justify-content:flex-end!important;
-  padding:0px;
+  padding: 0 1vw!important;
 }
 .wm-secondary-nav{
     background-color: hsla(var($dark),1);
 }
 .wm-subnav-nav-list{
-  margin-right: 0px;
+  margin-right: 0px!important;
 }
 .wm-secondary-container .wm-subnav-nav-list a{
   text-transform:uppercase;
@@ -96,25 +96,6 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 #wm-subnav .wm-social-icon-container .wm-social-icon svg, #wm-subnav .wm-social-icon-container .wm-social-icon path{
     fill: hsla(var(--white-hsl),1);
 }
-#wm-subnav .wm-social-icon-container .wm-social-icon
-
-// [data-wm-social='youtube'] path{
-//   stroke: var($light);
-//   &:hover,
-//   &:active {
-//      stroke: var($white);
-//   }
-// }
-// [data-wm-social='facebook'] path, 
-// [data-wm-social='instagram'] path,
-// [data-wm-social='facebook'] svg,
-// [data-wm-social='instagram'] svg{
-//   fill: var($light);
-//   &:hover,
-//   &:active {
-//      fill: var($white);
-//   }
-// }
 // buttons
 // redefine the rollover of buttons
 .secondary-button-style-solid .sqs-button-element--secondary:hover,
