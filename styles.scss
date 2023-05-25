@@ -94,8 +94,30 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
      fill: var($white);
   }
 }
-
-
-#block-yui_3_17_2_1_1684972261635_11919 .sqs-shape-rectangle{
-    background: var($white);
+// buttons
+// redefine the rollover of buttons
+.secondary-button-style-solid .sqs-button-element--secondary:hover,
+.tertiary-button-style-solid .sqs-button-element--tertiary:hover,
+.primary-button-style-solid .site-wrapper .sqs-button-element--primary:hover {
+    opacity: 1;
+}
+.primary-button-style-solid .site-wrapper .sqs-button-element--primary:link,
+.primary-button-style-solid .site-wrapper .sqs-button-element--primary:visited,
+.secondary-button-style-solid .sqs-button-element--secondary:link,
+.secondary-button-style-solid .sqs-button-element--secondary:visited,
+.tertiary-button-style-solid .sqs-button-element--tertiary:link,
+.tertiary-button-style-solid .sqs-button-element--tertiary:visited{
+    transition: all .2s; 
+}
+.primary-button-style-solid .site-wrapper .sqs-button-element--primary:hover,
+.secondary-button-style-solid .sqs-button-element--secondary:hover,
+.tertiary-button-style-solid .sqs-button-element--tertiary:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.primary-button-style-solid .site-wrapper .sqs-button-element--primary:active,
+.secondary-button-style-solid .sqs-button-element--secondary:active,
+.tertiary-button-style-solid .sqs-button-element--tertiary:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
