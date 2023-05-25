@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   }
 }
 
+.header-actions-action .sqs-custom-cart, .header-menu-actions-action .sqs-custom-cart {
+  margin-top: -32px;
+}
+
 /* Secondary Navigation */
 .wm-secondary-container {
   justify-content: flex-end !important;
