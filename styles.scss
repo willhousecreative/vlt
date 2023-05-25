@@ -48,7 +48,8 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   padding-bottom: 15px;
 }
 /* Primary Navigation */
-.header-title-nav-wrapper{
+.header-title-nav-wrapper,
+.header-display-desktop{
   align-items: flex-end;
 }
 /* Secondary Navigation */
