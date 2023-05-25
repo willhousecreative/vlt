@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
     margin-top: -32px;
 }
 /* Secondary Navigation */
+// don't show on mobile menu
+.wm-secondary-mobile-nav {
+  display: none;
+}
 .wm-secondary-container{
   justify-content:flex-end!important;
   padding: 0 1vw!important;
