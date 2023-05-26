@@ -45,9 +45,9 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   position: relative;
   text-decoration: none;
 } 
-.fe-block .sqs-block-content a:hover{
-color: black;
-}
+// .fe-block .sqs-block-content a:hover{
+// color: black;
+// }
 .fe-block .sqs-block-content a::before{
 content: "";
   position: absolute;
