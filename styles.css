@@ -193,6 +193,10 @@ section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block.fe-block-365d83e8c
   grid-area: 1/5/15/7;
 }
 
+section[data-section-id="646ea1b5dc4c11cb550209d5"] #block-365d83e8cfa18a970004.sqs-block.sqs-background-enabled {
+  padding: 3% 6% 6% 6%;
+}
+
 .fluid-engine.fe-646f8221fe3dd56bb1d20d15 {
   margin-bottom: 25px;
 }
