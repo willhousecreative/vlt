@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 // theme specific link underline colors
 @include lightest1 {
   & .fe-block .sqs-block-content a::before {
-    background-color: red;
+    background-color: var(--tweak-paragraph-link-color-on-background);
   }
 }
 .fe-block .sqs-block-content a:hover::before {
