@@ -28,8 +28,6 @@ $dark: --darkAccent-hsl;
     @content;
   }
 }
-
-
 /* Media Queries Mixins*/
 @mixin atLarge {
     @media screen and (min-width: 1272px){ @content; }
@@ -119,6 +117,10 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
     @include atLarge {
         font-size: calc(1.25 * 1rem);
     } 
+}
+// active links underline color
+body:not(.header--menu-open) .header-nav-item--active>a{
+  background-image: linear-gradient(hsl(var(--accent-hsl)),hsl(var(--accent-hsl)));
 }
 // cart icon
 .header-actions-action .sqs-custom-cart, .header-menu-actions-action .sqs-custom-cart {
