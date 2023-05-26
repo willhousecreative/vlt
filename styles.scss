@@ -7,7 +7,12 @@ $dark: --darkAccent-hsl;
 
 // Themes
 @mixin lightest1 {
-  [data-section-theme="white"]{
+  [data-section-theme="white"] {
+    @content;
+  }
+}
+@mixin darkest1 {
+  [data-section-theme="black"] {
     @content;
   }
 }
@@ -72,6 +77,11 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
 @include lightest1 {
   & .fe-block .sqs-block-content a::before {
     background-color: var(--tweak-paragraph-link-color-on-background);
+  }
+}
+@include darkest1 {
+  & .fe-block .sqs-block-content a::before {
+    background-color: hsla(var($white),1);
   }
 }
 .fe-block .sqs-block-content a:hover::before {

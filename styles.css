@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   background-color: var(--tweak-paragraph-link-color-on-background);
 }
 
+[data-section-theme=black] .fe-block .sqs-block-content a::before {
+  background-color: hsla(var(--white-hsl), 1);
+}
+
 .fe-block .sqs-block-content a:hover::before {
   transform: scaleX(1);
 }
