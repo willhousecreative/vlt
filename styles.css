@@ -182,27 +182,6 @@ section[data-section-id="646ea1b5dc4c11cb550209d5"] .content-wrapper {
 }
 
 @media (min-width: 768px) {
-  section[data-section-id="646ea1b5dc4c11cb550209d5"] .fluid-image-container.sqs-image-content img.loaded {
-    -o-object-position: 74% 50% !important;
-       object-position: 74% 50% !important;
-  }
-}
-
-@media (min-width: 768px) {
-  section[data-section-id="646ea1b5dc4c11cb550209d5"] .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill {
-    left: 24%;
-    top: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  section[data-section-id="646ea1b5dc4c11cb550209d5"] .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill img {
-    width: 54% !important;
-    height: 100% !important;
-  }
-}
-
-@media (min-width: 768px) {
   section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block.fe-block-b4ae79e9fd63db27f93b,
   section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block.fe-block-yui_3_17_2_1_1684941612839_110796 {
     grid-area: 6/1/9/3;
