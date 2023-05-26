@@ -146,24 +146,32 @@ section[data-section-id="646ea1b5dc4c11cb550209d5"] .fluid-engine.fe-646ea1b5113
 // logo
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block.fe-block-646ea1b51f1f14fffb06280a {
   @include atMedium{
-    grid-area: 2/2/6/3;
+    grid-area: 3/1/6/3;
   }
+}
+// background positioning
+section[data-section-id="646ea1b5dc4c11cb550209d5"] .fluid-image-container.sqs-image-content img.loaded{
+  object-position: calc(60%) calc(60%)!important;
+}
+section[data-section-id="646ea1b5dc4c11cb550209d5"] .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill img{
+  width: 60% !important;
+  height: 100% !important;
 }
 // stamps
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block.fe-block-b4ae79e9fd63db27f93b,
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block.fe-block-yui_3_17_2_1_1684941612839_110796{
-  grid-area: 6/1/9/2;
+  grid-area: 6/1/9/3;
 }
 // bptw
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block-b4ae79e9fd63db27f93b .sqs-block {
   @include atMedium{
-    width: 50%;
+    width: 70%;
   }
 }
 // accredited
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block-yui_3_17_2_1_1684941612839_110796 .sqs-block{
   @include atMedium{
-    width: 50%;
+    width: 30%;
     margin-left: 50%;
   }
 }
