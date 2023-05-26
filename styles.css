@@ -149,12 +149,17 @@ section[data-section-id="646ea1b5dc4c11cb550209d5"] .fluid-engine.fe-646ea1b5113
 }
 
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .fluid-image-container.sqs-image-content img.loaded {
-  -o-object-position: 60% 60% !important;
-     object-position: 60% 60% !important;
+  -o-object-position: 74% 50% !important;
+     object-position: 74% 50% !important;
+}
+
+section[data-section-id="646ea1b5dc4c11cb550209d5"] .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill {
+  left: 29%;
+  top: -5px;
 }
 
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill img {
-  width: 60% !important;
+  width: 52% !important;
   height: 100% !important;
 }
 
