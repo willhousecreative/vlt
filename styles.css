@@ -181,6 +181,14 @@ section[data-section-id="646ea1b5dc4c11cb550209d5"] .content-wrapper {
   }
 }
 
+@media (min-width: 768px) {
+  section[data-section-id="646ea1b5dc4c11cb550209d5"] .sqs-block-image .design-layout-fluid .fluid-image-container .content-fill img {
+    left: 77px !important;
+    width: 66% !important;
+    height: 70% !important;
+  }
+}
+
 section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block.fe-block-b4ae79e9fd63db27f93b {
   grid-area: 6/12/9/4;
 }
