@@ -188,12 +188,18 @@ section[data-section-id="646ea1b5dc4c11cb550209d5"] .content-wrapper {
   }
 }
 
+section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block-b4ae79e9fd63db27f93b .sqs-block {
+  width: 50%;
+}
 @media (min-width: 768px) {
   section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block-b4ae79e9fd63db27f93b .sqs-block {
     width: 70%;
   }
 }
 
+section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block-yui_3_17_2_1_1684941612839_110796 .sqs-block {
+  width: 50%;
+}
 @media (min-width: 768px) {
   section[data-section-id="646ea1b5dc4c11cb550209d5"] .fe-block-yui_3_17_2_1_1684941612839_110796 .sqs-block {
     width: 30%;
