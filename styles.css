@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   transition: transform 0.3s ease;
 }
 
-[data-section-theme=white].fe-block .sqs-block-content a::before {
+[data-section-theme=white] .fe-block .sqs-block-content a::before {
   background-color: red;
 }
 
