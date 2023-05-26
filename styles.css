@@ -30,7 +30,7 @@
   font-style: normal;
 }
 /* Font Overrides */
-h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper .sqs-button-element--primary, #siteWrapper .sqs-button-element--tertiary, #siteWrapper .sqs-button-element--secondary {
+h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper .sqs-button-element--primary, #siteWrapper .sqs-button-element--tertiary, #siteWrapper .sqs-button-element--secondary, .user-items-list .list-section-title {
   font-family: "oswald_regularregular";
 }
 
