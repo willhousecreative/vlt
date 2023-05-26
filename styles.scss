@@ -59,8 +59,10 @@ $dark: --darkAccent-hsl;
     font-style: normal;
 }
 /* Font Overrides */
-h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper .sqs-button-element--primary, #siteWrapper .sqs-button-element--tertiary, #siteWrapper .sqs-button-element--secondary, .user-items-list .list-section-title  {font-family: 'oswald_regularregular';}
-.site-wrapper, .sqs-catalog-item-list, .sqs-block-html pre code{
+h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper .sqs-button-element--primary, #siteWrapper .sqs-button-element--tertiary, #siteWrapper .sqs-button-element--secondary, .user-items-list .list-section-title, .newsletter-form .newsletter-form-header-title  {
+  font-family: 'oswald_regularregular';
+}
+.site-wrapper, .sqs-catalog-item-list, .sqs-block-html pre code, .newsletter-form .newsletter-form-header-description, .newsletter-form .newsletter-form-field-element, .site-wrapper{
   font-family: 'glacial_indifferenceregular';
 }
 /* Site Links Underline */
