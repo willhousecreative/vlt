@@ -121,7 +121,7 @@ body:not(.header--menu-open) .header-nav-item--active > a {
   padding: 0 1vw !important; }
 
 .wm-secondary-nav {
-  background-color: hsla(var($dark),1); }
+  background-color: hsla(var(--darkAccent-hsl),1); }
 
 .wm-subnav-nav-list {
   margin-right: 0px !important; }
@@ -129,13 +129,13 @@ body:not(.header--menu-open) .header-nav-item--active > a {
 .wm-secondary-container .wm-subnav-nav-list a {
   text-transform: uppercase;
   font-size: .95rem;
-  color: hsla(var($white), 1);
+  color: hsla(var(--white-hsl), 1);
   width: 50px;
   padding: .45em 0em .55em 0em;
   text-align: center;
   margin: 0px 0px; }
   .wm-secondary-container .wm-subnav-nav-list a:hover, .wm-secondary-container .wm-subnav-nav-list a:active {
-    color: hsla(var($white), 1); }
+    color: hsla(var(--white-hsl), 1); }
 
 #wm-subnav .wm-social-icon-container .wm-social-icon svg, #wm-subnav .wm-social-icon-container .wm-social-icon path {
   fill: unqote("hsla(var(--white-hsl),1)"); }

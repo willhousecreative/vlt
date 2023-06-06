@@ -19,7 +19,7 @@
   padding: 0 1vw!important;
 }
 .wm-secondary-nav {
-    background-color: unquote("hsla(var($dark),1)");
+    background-color: unquote("hsla(var(--darkAccent-hsl),1)");
 }
 .wm-subnav-nav-list {
   margin-right: 0px!important;
@@ -27,11 +27,12 @@
 .wm-secondary-container .wm-subnav-nav-list a {
   text-transform:uppercase;
   font-size: .95rem;
-  color: unquote("hsla(var($white), 1)");
+  color: unquote("hsla(var(--white-hsl), 1)");
+  
 
   &:hover,
   &:active {
-    color: unquote("hsla(var($white), 1)");
+    color: unquote("hsla(var(--white-hsl), 1)");
   }
   width: 50px;
   padding: .45em 0em .55em 0em;
