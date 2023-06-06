@@ -3,18 +3,20 @@ section[data-section-id="646ea53e53cb5e53241acaa2"] {
 }
 
 section[data-section-id="647fb1587c65a21db2e98236"] {
-  // Instagram Button 
-  position: absolute;
-  top: 35em;
-  z-index: 1000;
-  left: 50%;
-  transform: translate(-13%, -38%);
+  &.page-section {
+    // Instagram Button 
+    position: absolute;
+    top: 35em;
+    z-index: 1000;
+    left: 50%;
+    transform: translate(-13%, -38%);
   
-  :not(.has-background) .section-background {
-    background-color: transparent;
+    .section-border,
+    :not(.has-background) .section-background {
+      background-color: transparent;
+    }
   }
 }
-
 
 // Email Signup
 section[data-section-id="646f810a69ab3003b658bea7"] button.newsletter-form-button.sqs-system-button.sqs-editable-button-layout.sqs-editable-button-style.sqs-editable-button-shape.sqs-button-element--primary {

@@ -140,13 +140,14 @@ body:not(.header--menu-open) .header-nav-item--active > a {
 #wm-subnav .wm-social-icon-container .wm-social-icon path {
   fill: hsla(var(--white-hsl),1); }
 
-section[data-section-id="647fb1587c65a21db2e98236"] {
+section[data-section-id="647fb1587c65a21db2e98236"].page-section {
   position: absolute;
   top: 35em;
   z-index: 1000;
   left: 50%;
   transform: translate(-13%, -38%); }
-  section[data-section-id="647fb1587c65a21db2e98236"] :not(.has-background) .section-background {
+  section[data-section-id="647fb1587c65a21db2e98236"].page-section .section-border,
+  section[data-section-id="647fb1587c65a21db2e98236"].page-section :not(.has-background) .section-background {
     background-color: transparent; }
 
 section[data-section-id="646f810a69ab3003b658bea7"] button.newsletter-form-button.sqs-system-button.sqs-editable-button-layout.sqs-editable-button-style.sqs-editable-button-shape.sqs-button-element--primary {
