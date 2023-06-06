@@ -1,0 +1,18 @@
+// Themes
+@mixin lightest1 {
+    [data-section-theme="white"] {
+      @content;
+    }
+  }
+  @mixin darkest1 {
+    [data-section-theme="black"] {
+      @content;
+    }
+  }
+  /* Media Queries Mixins*/
+  @mixin atLarge {
+      @media screen and (min-width: 1272px){ @content; }
+  }
+  @mixin atMedium {
+    @media (min-width: 768px) { @content; }
+  }

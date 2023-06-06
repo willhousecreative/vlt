@@ -1,0 +1,22 @@
+{
+    "name": "Ventura Land Trust",
+    "version": "0.0.1",
+    "description": "Ventura Land Trust Website",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss styles.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/willhousecreative/vlt"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/willhousecreative/vlt"
+    },
+    "homepage": "https://github.com/willhousecreative/vlt",
+    "devDependencies": {
+        "node-sass": "^9.0.0"
+    }
+}
