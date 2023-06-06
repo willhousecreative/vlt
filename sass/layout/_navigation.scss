@@ -39,6 +39,7 @@
   text-align:center;
   margin: 0px 0px;
 }
-#wm-subnav .wm-social-icon-container .wm-social-icon svg, #wm-subnav .wm-social-icon-container .wm-social-icon path {
-    fill: unqote("hsla(var(--white-hsl),1)");
+#wm-subnav .wm-social-icon-container .wm-social-icon svg, 
+#wm-subnav .wm-social-icon-container .wm-social-icon path {
+    fill: unquote("hsla(var(--white-hsl),1)");
 }

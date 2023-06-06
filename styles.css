@@ -137,8 +137,9 @@ body:not(.header--menu-open) .header-nav-item--active > a {
   .wm-secondary-container .wm-subnav-nav-list a:hover, .wm-secondary-container .wm-subnav-nav-list a:active {
     color: hsla(var(--white-hsl), 1); }
 
-#wm-subnav .wm-social-icon-container .wm-social-icon svg, #wm-subnav .wm-social-icon-container .wm-social-icon path {
-  fill: unqote("hsla(var(--white-hsl),1)"); }
+#wm-subnav .wm-social-icon-container .wm-social-icon svg,
+#wm-subnav .wm-social-icon-container .wm-social-icon path {
+  fill: hsla(var(--white-hsl),1); }
 
 .fluid-engine.fe-646f8221fe3dd56bb1d20d15 {
   margin-bottom: 25px; }
