@@ -1,20 +1,20 @@
-section[data-section-id="646ea53e53cb5e53241acaa2"] {
-  // Instagram Feed
+section[data-section-id="646ea53e53cb5e53241acaa2"],
+section[data-section-id="647fb1587c65a21db2e98236"] {
+  // Instagram Feed and button
   // in general, do not display
   display: none;
 }
 
 .homepage {
+  // on the home page you can display
   section[data-section-id="646ea53e53cb5e53241acaa2"] {
     // Instagram Feed
-    // in general, do not display
     display: block;
   }
   section[data-section-id="647fb1587c65a21db2e98236"] {
-    // in general, do not display
-    display: none;
    &.page-section {
      // Instagram Button 
+     display: block;
      top: 40%;
      left: 50%;
      z-index: 1000;
