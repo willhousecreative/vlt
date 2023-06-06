@@ -5,11 +5,12 @@ section[data-section-id="646ea53e53cb5e53241acaa2"] {
 section[data-section-id="647fb1587c65a21db2e98236"] {
   &.page-section {
     // Instagram Button 
-    position: absolute;
-    top: 35em;
-    z-index: 1000;
+    top: 40%;
     left: 50%;
-    transform: translate(-13%, -38%);
+    z-index: 1000;
+    margin-top: -134px;
+    transform: translate(-50%, -66%);
+    width: 154px;
   
     .section-border,
     :not(.has-background) .section-background {
