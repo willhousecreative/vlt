@@ -3,6 +3,11 @@
 .header-display-desktop {
   align-items: flex-end;
 }
+.header-display-desktop {
+  .header-nav-list {
+    gap: 0rem 1.5rem;
+  }
+}
 .header-nav-item {
     @include atLarge {
         font-size: calc(1.25 * 1rem);
