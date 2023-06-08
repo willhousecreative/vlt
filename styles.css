@@ -155,7 +155,8 @@ section[data-section-id="646ea53e53cb5e53241acaa2"],
 section[data-section-id="647fb1587c65a21db2e98236"] {
   display: none; }
 
-.homepage section[data-section-id="646ea53e53cb5e53241acaa2"] {
+.homepage section[data-section-id="646ea53e53cb5e53241acaa2"],
+.homepage section[data-section-id="647fb1587c65a21db2e98236"] {
   display: block; }
 
 @media (min-width: 1024px) {
