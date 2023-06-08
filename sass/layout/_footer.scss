@@ -7,20 +7,36 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
 
 .homepage {
   // on the home page you can display
+
   section[data-section-id="646ea53e53cb5e53241acaa2"] {
     // Instagram Feed
     display: block;
   }
+
   section[data-section-id="647fb1587c65a21db2e98236"] {
    &.page-section {
-     // Instagram Button 
-     display: block;
-     top: 40%;
-     left: 50%;
-     z-index: 1000;
-     margin-top: -134px;
-     transform: translate(-50%, -66%);
-     width: 154px;
+    @include respond(desktop) {
+      .content-wrapper {
+        div#yui_3_17_2_1_1686254538646_473 {
+          width: 475px;
+        }
+        a.sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
+          width: 440px;
+        }
+      }
+        // Instagram Button 
+        display: block;
+        top: 40%;
+        left: 37%;
+        z-index: 1000;
+        // this brings the footer up with the button
+        margin-top: -134px;
+        // transform allows us to bring the button up without effecting the footer
+        transform: translate(-50%, -66%);
+        // assists in the centering
+        width: 184px;
+    }
+    
    
      .section-border,
      :not(.has-background) .section-background {

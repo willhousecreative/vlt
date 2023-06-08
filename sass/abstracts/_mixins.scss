@@ -19,29 +19,27 @@
 
 // MEDIA QUERY MANAGER
 /*
-0 - 600px:       Phone
-600px - 900px:   Tablet portrait
-900px - 1200px:  Tablet landscape
-[1200px - 1800px] is where are "normal" range is
-1800px - +:      Big desktop
-
  * $breakpoint argument choices
- * - phone
- * - tab-port
- * - tab-land
- * - big-desktop
+ * - mobile
+ * - tablet
+ * - desktop
+ * - mouse-device
+ * - touch-device
  */
 @mixin respond($breakpoint) {
-  @if $breakpoint == phone {
-      @media (max-width: 37.5em) { @content }; //600px (600 / 16)
+  @if $breakpoint == mobile {
+    @media (max-width: 767px) { @content }; /* Devices smaller than 767px */
   }
-  @if $breakpoint == tab-port {
-      @media (max-width: 56.25em) { @content }; //900px
+  @if $breakpoint == tablet {
+    @media (min-width: 768px) and (max-width: 1024px) { @content }; /* Devices between 768px and 1024px */
   }
-  @if $breakpoint == tab-land {
-      @media (max-width: 75em) { @content }; //1200px
+  @if $breakpoint == desktop {
+    @media (min-width: 1024px) { @content }; /*Devices larger than 1024px*/
   }
-  @if $breakpoint == big-desktop {
-      @media (min-width: 112.5em) { @content }; //1800px
+  @if $breakpoint == mouse-device {
+    @media (hover: hover) { @content }; /* Styles for devices with a mouse */
+  }
+  @if $breakpoint == touch-device {
+    @media (hover: none) { @content }; /* Styles for devices without a mouse */
   }
 }
