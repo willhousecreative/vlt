@@ -13,6 +13,13 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
     // Instagram Feed
     display: block;
   }
+  section[data-section-id="647fb1587c65a21db2e98236"] {
+    // Instagram Button on Mobile
+    .fluid-engine {
+      grid-template-columns: 1fr;
+      column-gap: 0;
+    }
+  }
 
   @include respond(desktop) {
     section[data-section-id="647fb1587c65a21db2e98236"] {
