@@ -20,26 +20,26 @@
 // MEDIA QUERY MANAGER
 /*
  * $breakpoint argument choices
- * - mobile
- * - tablet
- * - desktop
- * - mouse-device
- * - touch-device
+ * - mobile        Devices smaller than 767px
+ * - tablet        Devices between 768px and 1024px
+ * - desktop       Devices larger than 1024px
+ * - mouse-device  Styles for devices with a mouse
+ * - touch-device  Styles for devices without a mouse
  */
 @mixin respond($breakpoint) {
   @if $breakpoint == mobile {
-    @media (max-width: 767px) { @content }; /* Devices smaller than 767px */
+    @media (max-width: 767px) { @content }; 
   }
   @if $breakpoint == tablet {
-    @media (min-width: 768px) and (max-width: 1024px) { @content }; /* Devices between 768px and 1024px */
+    @media (min-width: 768px) and (max-width: 1024px) { @content }; 
   }
   @if $breakpoint == desktop {
-    @media (min-width: 1024px) { @content }; /*Devices larger than 1024px*/
+    @media (min-width: 1024px) { @content }; 
   }
   @if $breakpoint == mouse-device {
-    @media (hover: hover) { @content }; /* Styles for devices with a mouse */
+    @media (hover: hover) { @content }; 
   }
   @if $breakpoint == touch-device {
-    @media (hover: none) { @content }; /* Styles for devices without a mouse */
+    @media (hover: none) { @content };
   }
 }

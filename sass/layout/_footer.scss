@@ -13,17 +13,17 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
     display: block;
   }
 
-  section[data-section-id="647fb1587c65a21db2e98236"] {
-   &.page-section {
-    @include respond(desktop) {
+  @include respond(desktop) {
+    div#yui_3_17_2_1_1686254538646_473 {
+      width: 475px;
+    }
+    section[data-section-id="647fb1587c65a21db2e98236"] {
       .content-wrapper {
-        div#yui_3_17_2_1_1686254538646_473 {
-          width: 475px;
-        }
         a.sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
           width: 440px;
         }
       }
+      &.page-section {
         // Instagram Button 
         display: block;
         top: 40%;
@@ -35,15 +35,13 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
         transform: translate(-50%, -66%);
         // assists in the centering
         width: 184px;
+        .section-border,
+        :not(.has-background) .section-background {
+          background-color: transparent;
+        }
+      }
     }
-    
-   
-     .section-border,
-     :not(.has-background) .section-background {
-       background-color: transparent;
-     }
-   }
- }
+  }
 }
 
 
