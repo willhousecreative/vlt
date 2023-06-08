@@ -1,0 +1,13 @@
+section[data-section-id="6481f9d49bc487300199a7f9"] {
+
+    // Read More Button
+    .user-items-list-simple { // <ul>
+        .list-item[data-is-card-enabled="true"]  { // <li>
+            .list-item-content__butto.sqs-button-element--primary { // <a href...>
+                color: unqote("hsl(var(--black-hsl))");
+                background-color: transparent;
+            }
+
+        }
+    }
+}
