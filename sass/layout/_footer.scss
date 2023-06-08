@@ -14,11 +14,11 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
   }
 
   @include respond(desktop) {
-    div#yui_3_17_2_1_1686254538646_473 {
-      width: 475px;
-    }
     section[data-section-id="647fb1587c65a21db2e98236"] {
       .content-wrapper {
+        .sqs-block-button-container {
+          width: 538px;
+        }
         a.sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element {
           width: 440px;
         }
