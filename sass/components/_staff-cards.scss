@@ -3,9 +3,13 @@ section[data-section-id="6481f9d49bc487300199a7f9"] {
     // Read More Button
     .user-items-list-simple { // <ul>
         .list-item[data-is-card-enabled="true"]  { // <li>
+            padding-left: 0px!important;
+            padding-right: 0px!important;
+            padding-bottom: 0px!important;
             .list-item-content__button.sqs-button-element--primary { // <a href...>
-                color: unquote("hsla(var(--black-hsl),1)");
-                background-color: transparent;
+                // color: unquote("hsla(var(--black-hsl),1)");
+                // background-color: transparent;
+                width: 100%;
             }
 
         }
