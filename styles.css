@@ -95,6 +95,10 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 
+section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .list-item[data-is-card-enabled="true"] .list-item-content__butto.sqs-button-element--primary {
+  color: hsla(var(--black-hsl),1);
+  background-color: transparent; }
+
 /* Global Header */
 .header .header-announcement-bar-wrapper {
   padding-top: 0px;
