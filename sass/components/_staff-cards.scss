@@ -10,8 +10,12 @@ section[data-section-id="6481f9d49bc487300199a7f9"] {
                 // color: unquote("hsla(var(--black-hsl),1)");
                 // background-color: transparent;
                 width: 100%;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
             }
-
         }
     }
 }
