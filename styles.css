@@ -107,10 +107,14 @@ section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .lis
     align-items: center;
     justify-content: center; }
 
+/* Plugin Lightbox - Custom Styles */
+.fancybox-container .c-lightbox__close[type=button] {
+  right: 5px;
+  top: 5px; }
+
 .fancybox-container .fluid-engine {
   margin-top: 0px; }
 
-/* Plugin Lightbox - Custom Styles */
 html .c-lightbox__content-inner {
   padding: 2rem 2rem 2rem 2rem; }
 

@@ -1,11 +1,15 @@
+/* Plugin Lightbox - Custom Styles */
 .fancybox-container {
+    .c-lightbox__close[type=button] {
+        right: 5px;
+        top: 5px;
+    }
     .fluid-engine {
-        // --row-height-scaling-factor: auto;
         margin-top: 0px;
     }
 }
-/* Plugin Lightbox - Custom Styles */
+
 html .c-lightbox__content-inner {
     padding: 2rem 2rem 2rem 2rem;
 }
-  /* end Plugin Lightbox - Custom Styles */
+/* end Plugin Lightbox - Custom Styles */
