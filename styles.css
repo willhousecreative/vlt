@@ -107,9 +107,12 @@ section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .lis
     align-items: center;
     justify-content: center; }
 
+.fancybox-container .fluid-engine {
+  margin-top: -28px; }
+
 /* Plugin Lightbox - Custom Styles */
 html .c-lightbox__content-inner {
-  padding: 0 2rem 0 2rem; }
+  padding: 0 2rem 2rem 2rem; }
 
 /* end Plugin Lightbox - Custom Styles */
 /* Global Header */
