@@ -1,5 +1,11 @@
 .fancybox-container {
     .fluid-engine {
-        --row-height-scaling-factor: auto;
+        // --row-height-scaling-factor: auto;
     }
 }
+/* Plugin Lightbox - Custom Styles */
+html .c-lightbox__content-inner {
+    padding: 0;
+    border-radius: 27px;
+  }
+  /* end Plugin Lightbox - Custom Styles */
