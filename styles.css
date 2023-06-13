@@ -109,8 +109,12 @@ section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .lis
 
 /* Plugin Lightbox - Custom Styles */
 .fancybox-container .c-lightbox__close[type=button] {
-  right: 5px;
-  top: 5px; }
+  right: 15px;
+  top: 15px; }
+  @media (min-width: 1024px) {
+    .fancybox-container .c-lightbox__close[type=button] {
+      right: 5px;
+      top: 5px; } }
 
 .fancybox-container .fluid-engine {
   margin-top: 0px; }

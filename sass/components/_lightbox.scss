@@ -1,8 +1,12 @@
 /* Plugin Lightbox - Custom Styles */
 .fancybox-container {
     .c-lightbox__close[type=button] {
-        right: 5px;
-        top: 5px;
+        right: 15px;
+        top: 15px;
+        @include respond(desktop) {
+            right: 5px;
+            top: 5px;
+        }
     }
     .fluid-engine {
         margin-top: 0px;
