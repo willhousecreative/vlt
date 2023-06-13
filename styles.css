@@ -107,6 +107,9 @@ section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .lis
     align-items: center;
     justify-content: center; }
 
+.fancybox-container .fluid-engine {
+  --row-height-scaling-factor: 0.005; }
+
 /* Global Header */
 .header .header-announcement-bar-wrapper {
   padding-top: 0px;
