@@ -107,6 +107,10 @@ section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .lis
     align-items: center;
     justify-content: center; }
 
+/* Individual Bios */
+#yui_3_17_2_1_1686712203250_577 .loaded {
+  object-position: calc(20%) calc(50%) !important; }
+
 /* Plugin Lightbox - Custom Styles */
 .fancybox-container .c-lightbox__close[type=button] {
   right: 15px;
