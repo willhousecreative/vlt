@@ -111,6 +111,9 @@ section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .lis
 section[data-section-id="64892ea66cea283eeaa47138"] img.loaded {
   object-position: calc(20%) calc(50%) !important; }
 
+section[data-section-id="648938d0b4a05d4494ec370c"] img.loaded {
+  object-position: calc(90%) calc(50%) !important; }
+
 /* Plugin Lightbox - Custom Styles */
 .fancybox-container .c-lightbox__close[type=button] {
   right: 15px;
