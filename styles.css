@@ -153,6 +153,8 @@ body:not(.header--menu-open) .header-nav-item--active > a {
 
 .header-display-desktop .header-nav-list {
   gap: 0rem 1.5rem; }
+  .header-display-desktop .header-nav-list .header-nav-folder-title {
+    text-transform: uppercase; }
 
 @media screen and (min-width: 1272px) {
   .header-nav-item {
