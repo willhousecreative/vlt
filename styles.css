@@ -95,11 +95,15 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 
-section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .list-item[data-is-card-enabled="true"] {
+section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .list-item[data-is-card-enabled="true"],
+section[data-section-id="64932a6df3386a14f2e71782"] .user-items-list-simple .list-item[data-is-card-enabled="true"],
+section[data-section-id="64932f7c04d5c932591556b6"] .user-items-list-simple .list-item[data-is-card-enabled="true"] {
   padding-left: 0px !important;
   padding-right: 0px !important;
   padding-bottom: 0px !important; }
-  section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .list-item[data-is-card-enabled="true"] .list-item-content__button.sqs-button-element--primary {
+  section[data-section-id="6481f9d49bc487300199a7f9"] .user-items-list-simple .list-item[data-is-card-enabled="true"] .list-item-content__button.sqs-button-element--primary,
+  section[data-section-id="64932a6df3386a14f2e71782"] .user-items-list-simple .list-item[data-is-card-enabled="true"] .list-item-content__button.sqs-button-element--primary,
+  section[data-section-id="64932f7c04d5c932591556b6"] .user-items-list-simple .list-item[data-is-card-enabled="true"] .list-item-content__button.sqs-button-element--primary {
     width: 100%;
     height: 40px;
     display: flex;
