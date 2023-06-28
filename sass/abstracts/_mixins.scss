@@ -10,6 +10,9 @@
     }
   }
   /* Media Queries Mixins*/
+  @mixin atDesktop {
+    @media screen and (min-width: 1100px){ @content; }
+  }
   @mixin atLarge {
       @media screen and (min-width: 1272px){ @content; }
   }

@@ -16,6 +16,11 @@
     @include atLarge {
         font-size: calc(1.25 * 1rem);
     } 
+    &.header-nav-item--folder:first-child {
+      @include atDesktop {
+        display: none!important;
+      }
+    }
 }
 
 /* Language Picker */

@@ -170,6 +170,10 @@ body:not(.header--menu-open) .header-nav-item--active > a {
   .header-nav-item {
     font-size: calc(1.25 * 1rem); } }
 
+@media screen and (min-width: 1100px) {
+  .header-nav-item.header-nav-item--folder:first-child {
+    display: none !important; } }
+
 /* Language Picker */
 .header-actions .language-picker-desktop {
   margin-top: -39px; }
