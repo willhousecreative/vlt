@@ -37,10 +37,31 @@
   font-style: normal; }
 
 /* Font Overrides */
-h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper .sqs-button-element--primary, #siteWrapper .sqs-button-element--tertiary, #siteWrapper .sqs-button-element--secondary, .user-items-list .list-section-title, .newsletter-form .newsletter-form-header-title {
+h1,
+[data-website-fonts] h1,
+h2,
+[data-website-fonts] h2,
+h3,
+[data-website-fonts] h3,
+h4,
+[data-website-fonts] h4,
+h5,
+h6,
+.header-nav-wrapper a,
+.header-menu-nav a,
+#siteWrapper .sqs-button-element--primary,
+#siteWrapper .sqs-button-element--tertiary,
+#siteWrapper .sqs-button-element--secondary,
+.user-items-list .list-section-title,
+.newsletter-form .newsletter-form-header-title {
   font-family: 'oswald_regularregular'; }
 
-.site-wrapper, .sqs-catalog-item-list, .sqs-block-html pre code, .newsletter-form .newsletter-form-header-description, .newsletter-form .newsletter-form-field-element, .site-wrapper {
+.site-wrapper,
+.sqs-catalog-item-list,
+.sqs-block-html pre code,
+.newsletter-form .newsletter-form-header-description,
+.newsletter-form .newsletter-form-field-element,
+.site-wrapper {
   font-family: 'glacial_indifferenceregular'; }
 
 /* Site Links Underline */
@@ -49,7 +70,7 @@ h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper 
   text-decoration: none; }
 
 .fe-block .sqs-block-content a:not(.sqs-block-button-element)::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 100%;

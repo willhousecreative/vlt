@@ -1,69 +1,95 @@
 /* Fonts */
 @font-face {
-    font-family: 'glacial_indifferenceregular';
-    src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a774a7d815846799f0b/1684900471021/glacialindifference-regular-webfont.woff2') format('woff2'),
-         url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d3664f8d6a6264f80659b/1684878948587/glacialindifference-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'glacial_indifferenceregular';
+  src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a774a7d815846799f0b/1684900471021/glacialindifference-regular-webfont.woff2')
+      format('woff2'),
+    url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d3664f8d6a6264f80659b/1684878948587/glacialindifference-regular-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'glacial_indifferenceitalic';
-    src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a734066831f869987f3/1684900467329/glacialindifference-italic-webfont.woff2') format('woff2'),
-         url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d366a7d59bb793ac5393b/1684878954983/glacialindifference-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'glacial_indifferenceitalic';
+  src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a734066831f869987f3/1684900467329/glacialindifference-italic-webfont.woff2')
+      format('woff2'),
+    url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d366a7d59bb793ac5393b/1684878954983/glacialindifference-italic-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'oswald_regularregular';
-    src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a68438d85376c8a75fb/1684900456429/oswald-regular-webfont.woff2') format('woff2'),
-         url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d367678e46a2ee4f8e645/1684878966790/oswald-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'oswald_regularregular';
+  src: url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d8a68438d85376c8a75fb/1684900456429/oswald-regular-webfont.woff2')
+      format('woff2'),
+    url('https://static1.squarespace.com/static/622a8e8b99b4aa06799132d5/t/646d367678e46a2ee4f8e645/1684878966790/oswald-regular-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 /* Font Overrides */
-h1, h2, h3, h4, h5, h6, .header-nav-wrapper a, .header-menu-nav a, #siteWrapper .sqs-button-element--primary, #siteWrapper .sqs-button-element--tertiary, #siteWrapper .sqs-button-element--secondary, .user-items-list .list-section-title, .newsletter-form .newsletter-form-header-title  {
+h1,
+[data-website-fonts] h1,
+h2,
+[data-website-fonts] h2,
+h3,
+[data-website-fonts] h3,
+h4,
+[data-website-fonts] h4,
+h5,
+h6,
+.header-nav-wrapper a,
+.header-menu-nav a,
+#siteWrapper .sqs-button-element--primary,
+#siteWrapper .sqs-button-element--tertiary,
+#siteWrapper .sqs-button-element--secondary,
+.user-items-list .list-section-title,
+.newsletter-form .newsletter-form-header-title {
   font-family: 'oswald_regularregular';
 }
-.site-wrapper, .sqs-catalog-item-list, .sqs-block-html pre code, .newsletter-form .newsletter-form-header-description, .newsletter-form .newsletter-form-field-element, .site-wrapper{
+.site-wrapper,
+.sqs-catalog-item-list,
+.sqs-block-html pre code,
+.newsletter-form .newsletter-form-header-description,
+.newsletter-form .newsletter-form-field-element,
+.site-wrapper {
   font-family: 'glacial_indifferenceregular';
 }
 
 /* Site Links Underline */
 .fe-block .sqs-block-content a {
-    position: relative;
-    text-decoration: none;
-  } 
-  // .fe-block .sqs-block-content a:hover{
-  // color: black;
-  // }
-  .fe-block .sqs-block-content a:not(.sqs-block-button-element)::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transform-origin: top left;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
+  position: relative;
+  text-decoration: none;
+}
+// .fe-block .sqs-block-content a:hover{
+// color: black;
+// }
+.fe-block .sqs-block-content a:not(.sqs-block-button-element)::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+// theme specific link underline colors
+@include lightest1 {
+  & .fe-block .sqs-block-content a::before {
+    background-color: var(--tweak-paragraph-link-color-on-background);
   }
-  // theme specific link underline colors
-  @include lightest1 {
-    & .fe-block .sqs-block-content a::before {
-      background-color: var(--tweak-paragraph-link-color-on-background);
-    }
+}
+@include darkest1 {
+  & .fe-block .sqs-block-content a::before {
+    // background-color: hsl(var(--white-hsl));
+    // background-color: hsla(120,100%,50%,0.3); // hsl(210deg 100% 20% / var(--opacity))
+    // background-color: if(true, hsl(var(--white-hsl)), hsla(120,100%,50%,0.3));
+    background-color: unquote('hsl(var(--white-hsl))');
   }
-  @include darkest1 {
-    & .fe-block .sqs-block-content a::before {
-      // background-color: hsl(var(--white-hsl));
-      // background-color: hsla(120,100%,50%,0.3); // hsl(210deg 100% 20% / var(--opacity))
-      // background-color: if(true, hsl(var(--white-hsl)), hsla(120,100%,50%,0.3));
-      background-color: unquote("hsl(var(--white-hsl))");
-
-    }
-  }
-  .fe-block .sqs-block-content a:hover::before {
-    transform: scaleX(1);
-  }
+}
+.fe-block .sqs-block-content a:hover::before {
+  transform: scaleX(1);
+}
