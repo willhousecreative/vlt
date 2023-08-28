@@ -1,0 +1,8 @@
+.sqs-block.accordion-block.sqs-block-accordion {
+  .accordion-item {
+    &__description {
+      min-width: 95% !important;
+      max-width: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/* SOCIABLE KIT */
+.sk-eventbrite-event {
+  .sk_branding {
+    a {
+      display: none;
+    }
+  }
+  .events-tabs {
+    .sk_eventbrite_event_tab_option {
+      background-color: unquote('hsla(var(--darkAccent-hsl),1)');
+    }
+  }
+}
+/* SOCIABLE KIT */
