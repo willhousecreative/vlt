@@ -1,0 +1,105 @@
+/* Begin Jot From Email Signup */
+.form-all {
+  max-width: 1080px;
+  width: 100%;
+  margin-top: 0px;
+}
+.supernova {
+  background-color: transparent;
+}
+.supernova .form-all,
+.form-all {
+  background-color: transparent;
+}
+ul.page-section {
+  padding: 0px;
+}
+.error-navigation-container {
+  display: none !important;
+  height: 0px;
+}
+.form-line {
+  padding: 0px;
+}
+.form-line-error {
+  background-color: transparent;
+}
+li.form-line-column.form-line-error.fixed-width {
+  flex-basis: 28%;
+}
+.form-line-active,
+.page-section li.form-line-active[data-type='control_button'] {
+  background-color: transparent;
+}
+.form-label-top,
+.form-label-left,
+.form-label-right,
+.form-html,
+.form-checkbox-item label,
+.form-radio-item label,
+span.FITB .qb-checkbox-label,
+span.FITB .qb-radiobox-label,
+span.FITB .form-radio label,
+span.FITB .form-checkbox label,
+[data-blotid][data-type='checkbox'] [data-labelid],
+[data-blotid][data-type='radiobox'] [data-labelid],
+span.FITB-inptCont[data-type='checkbox'] label,
+span.FITB-inptCont[data-type='radiobox'] label {
+  color: #ffffff;
+}
+span.form-sub-label,
+label.form-sub-label,
+div.form-header-group .form-subHeader,
+.rating-item-title.for-to > label:first-child,
+.rating-item-title.for-from > label:first-child,
+.rating-item-title .editor-container * {
+  color: #ffffff;
+}
+.form-buttons-wrapper,
+.form-submit-clear-wrapper {
+  border-top: none;
+  margin-top: 0px;
+}
+.jf-form-buttons {
+  border-radius: 0px;
+  height: 2.55rem;
+}
+.form-dropdown,
+.form-textarea,
+.form-textbox:not(#productSearch-input),
+.signature-wrapper {
+  border-radius: 0px;
+}
+.submit-button {
+  transition: all 0.2s;
+  position: relative;
+  background-color: #517b2b;
+  border-color: #517b2b;
+  &:hover {
+    background-color: #517b2b;
+    border-color: #517b2b;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+li[data-type='control_button'].form-line-column .form-buttons-wrapper {
+  padding: 45px;
+}
+.form-line-column {
+  width: calc(100 / 2 * 1% - 24px);
+}
+li#id_2 {
+  width: 180px;
+}
+span.form-checkbox-item {
+  clear: none !important;
+}
+.form-multiple-column[data-columncount='2'] .form-checkbox-item,
+.form-multiple-column[data-columncount='2'] .form-radio-item {
+  width: 25%;
+}
+/* End Jot From Email Signup */
