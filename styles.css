@@ -1032,7 +1032,10 @@ button.swiper-pagination-bullet {
 .form-all {
   max-width: 1080px;
   width: 100%;
-  margin-top: 0px; }
+  margin-top: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  margin: 0px auto; }
 
 .supernova {
   background-color: transparent; }
@@ -1137,14 +1140,26 @@ span.form-checkbox-item {
   padding-bottom: 15px;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1); }
 
-.tweak-fixed-header:not(.sqs-edit-mode-active):not(.sqs-site-styles-active) .header.shrink .header-announcement-bar-wrapper {
+.tweak-fixed-header:not(.sqs-edit-mode-active):not(.sqs-site-styles-active)
+.header.shrink
+.header-announcement-bar-wrapper {
   padding-top: 0;
   padding-bottom: 15px; }
+
+header .header-title-logo img {
+  transition: all linear 0.5s; }
+
+header.shrink .header-title-logo img {
+  width: 172px; }
 
 body:not(.header--menu-open) .header-nav-item--active > a {
   background-color: linear-gradient(hsl(var(--accent-hsl)),hsl(var(--accent-hsl))); }
 
-.header-actions-action .sqs-custom-cart, .header-menu-actions-action .sqs-custom-cart {
+:not(.header--menu-open) .header-nav-wrapper .header-nav-item--active a {
+  color: --white-hsl; }
+
+.header-actions-action .sqs-custom-cart,
+.header-menu-actions-action .sqs-custom-cart {
   margin-top: -32px; }
 
 /* Primary Navigation */
