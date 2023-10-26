@@ -78,11 +78,14 @@ h6,
   font-family: 'glacial_indifferenceregular'; }
 
 /* Site Links Underline */
-.fe-block .sqs-block-content a {
+.fe-block .sqs-block:not(.image-block) .sqs-block-content a {
   position: relative;
   text-decoration: none; }
 
-.fe-block .sqs-block-content a:not(.sqs-block-button-element)::before {
+.fe-block
+.sqs-block:not(.image-block)
+.sqs-block-content
+a:not(.sqs-block-button-element)::before {
   content: '';
   position: absolute;
   display: block;
@@ -94,13 +97,13 @@ h6,
   transform: scaleX(0);
   transition: transform 0.3s ease; }
 
-[data-section-theme="white"] .fe-block .sqs-block-content a::before {
+[data-section-theme="white"] .fe-block .sqs-block:not(.image-block) .sqs-block-content a::before {
   background-color: var(--tweak-paragraph-link-color-on-background); }
 
-[data-section-theme="black"] .fe-block .sqs-block-content a::before {
+[data-section-theme="black"] .fe-block .sqs-block:not(.image-block) .sqs-block-content a::before {
   background-color: hsl(var(--white-hsl)); }
 
-.fe-block .sqs-block-content a:hover::before {
+.fe-block .sqs-block:not(.image-block) .sqs-block-content a:hover::before {
   transform: scaleX(1); }
 
 .secondary-button-style-solid .sqs-button-element--secondary:hover,

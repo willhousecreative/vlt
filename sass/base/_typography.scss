@@ -57,14 +57,17 @@ h6,
 }
 
 /* Site Links Underline */
-.fe-block .sqs-block-content a {
+.fe-block .sqs-block:not(.image-block) .sqs-block-content a {
   position: relative;
   text-decoration: none;
 }
 // .fe-block .sqs-block-content a:hover{
 // color: black;
 // }
-.fe-block .sqs-block-content a:not(.sqs-block-button-element)::before {
+.fe-block
+  .sqs-block:not(.image-block)
+  .sqs-block-content
+  a:not(.sqs-block-button-element)::before {
   content: '';
   position: absolute;
   display: block;
@@ -78,18 +81,18 @@ h6,
 }
 // theme specific link underline colors
 @include lightest1 {
-  & .fe-block .sqs-block-content a::before {
+  & .fe-block .sqs-block:not(.image-block) .sqs-block-content a::before {
     background-color: var(--tweak-paragraph-link-color-on-background);
   }
 }
 @include darkest1 {
-  & .fe-block .sqs-block-content a::before {
+  & .fe-block .sqs-block:not(.image-block) .sqs-block-content a::before {
     // background-color: hsl(var(--white-hsl));
     // background-color: hsla(120,100%,50%,0.3); // hsl(210deg 100% 20% / var(--opacity))
     // background-color: if(true, hsl(var(--white-hsl)), hsla(120,100%,50%,0.3));
     background-color: unquote('hsl(var(--white-hsl))');
   }
 }
-.fe-block .sqs-block-content a:hover::before {
+.fe-block .sqs-block:not(.image-block) .sqs-block-content a:hover::before {
   transform: scaleX(1);
 }
