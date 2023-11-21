@@ -14,15 +14,15 @@ elContainer.forEach((ele, index) => {
   ele.id = 'item-' + index;
 
   buttonAnchor = document.createElement('a');
-  buttonAnchor.innerText = 'Read More';
-  buttonAnchor.classList.add('read_more');
+  buttonAnchor.innerText = 'Show More';
+  buttonAnchor.classList.add('show-more');
   buttonAnchor.classList.add('list-item-content__button');
   buttonAnchor.classList.add('sqs-block-button-element');
   buttonAnchor.classList.add('sqs-block-button-element--medium');
   buttonAnchor.classList.add('sqs-button-element--primary');
   buttonAnchor.setAttribute('data-target', 'item-' + index);
-  buttonAnchor.title = 'Read More';
-  buttonAnchor.href = '#';
+  buttonAnchor.title = 'Show More';
+  //   buttonAnchor.href = '#';
   //   ele.innerHTML = 'Hello World';
   ele.appendChild(buttonAnchor);
 
@@ -35,7 +35,7 @@ elContainer.forEach((ele, index) => {
   //   });
 });
 
-const buttons = document.getElementsByClassName('read_more');
+const buttons = document.getElementsByClassName('show-more');
 console.log(buttons);
 
 const onButtonClick = (event) => {
