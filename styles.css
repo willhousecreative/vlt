@@ -1137,6 +1137,22 @@ span.form-checkbox-item {
   width: 25%; }
 
 /* End Jot From Email Signup */
+.list-item-content__description a {
+  position: relative;
+  display: block;
+  z-index: 10; }
+
+.list-item-content__description p.show {
+  opacity: 1; }
+
+.list-item-content__description p.display-block {
+  height: auto; }
+
+.list-item-content__description p {
+  opacity: 0;
+  height: 1px;
+  transition: opacity 0 linear; }
+
 /* Global Header */
 .header .header-announcement-bar-wrapper {
   padding-top: 0px;
