@@ -1162,7 +1162,8 @@ section[data-section-id='65398b1efeed1d69b2a95eb2']
 p {
   opacity: 0;
   height: 1px;
-  transition: opacity 0 linear; }
+  transition: opacity 0 linear;
+  margin: 25px 0px; }
 
 /* Global Header */
 .header .header-announcement-bar-wrapper {
