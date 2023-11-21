@@ -1,5 +1,9 @@
-const elContainer = document.querySelector('.list-item-content__description');
-const el = document.querySelector('.list-item-content__description p');
+const elContainer = document.querySelector(
+  'section[data-section-id="649da269c19d844c02d40cf4"] .list-item-content__description'
+);
+const el = document.querySelector(
+  'section[data-section-id="649da269c19d844c02d40cf4"] .list-item-content__description p'
+);
 console.log(el);
 
 // create a button element

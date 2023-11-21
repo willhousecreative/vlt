@@ -1,18 +1,28 @@
-.list-item-content__description a {
+section[data-section-id='649da269c19d844c02d40cf4']
+  .list-item-content__description
+  a {
   position: relative;
   display: block;
   z-index: 10;
+  text-align: center;
+  text-decoration: none;
 }
 
-.list-item-content__description p.show {
+section[data-section-id='649da269c19d844c02d40cf4']
+  .list-item-content__description
+  p.show {
   opacity: 1;
 }
 
-.list-item-content__description p.display-block {
+section[data-section-id='649da269c19d844c02d40cf4']
+  .list-item-content__description
+  p.display-block {
   height: auto;
 }
 
-.list-item-content__description p {
+section[data-section-id='649da269c19d844c02d40cf4']
+  .list-item-content__description
+  p {
   opacity: 0;
   height: 1px;
   transition: opacity 0 linear;
