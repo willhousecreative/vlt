@@ -1163,7 +1163,7 @@ p {
   opacity: 0;
   height: 1px;
   transition: opacity 0 linear;
-  margin: 25px 0px; }
+  margin: 0px; }
 
 /* Global Header */
 .header .header-announcement-bar-wrapper {
