@@ -1,15 +1,43 @@
-/* Jot From Clean Form */
-// Overrides
-.formCoverLogo {
-  display: none !important;
+/* Making the Page Background Transparent */
+.supernova,
+body {
+  background: none;
 }
-.supernova {
-  background-color: transparent !important;
-}
-.supernova .form-all,
+
+/* Making the Form Background Transparent */
 .form-all {
-  background-color: transparent !important;
+  background: none !important;
+  box-shadow: none;
 }
+/* Removing the Spacing Above the Form */
+body,
+.form-all {
+  margin-top: 0;
+}
+
+/* Changing All the Sub Label Color */
+.form-sub-label {
+  color: #ffb21d;
+}
+
+/* Changing the Highlight Effect Color */
+.form-line-active {
+  background: #ccffcc;
+}
+/* Changing the Form Required Star Color */
+.form-required {
+  color: cyan !important;
+}
+
+/* Aligning the Form to the Left */
+.form-all {
+  margin: 0;
+}
+
+.form-section.page-section {
+  border: solid black thin;
+}
+
 .form-all {
   max-width: 1080px;
   width: 100%;
