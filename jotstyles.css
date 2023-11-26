@@ -2,6 +2,13 @@
 .formCoverLogo {
   display: none !important; }
 
+.supernova {
+  background-color: transparent !important; }
+
+.supernova .form-all,
+.form-all {
+  background-color: transparent !important; }
+
 .form-all {
   max-width: 1080px;
   width: 100%;
@@ -9,13 +16,6 @@
   border-radius: 0px;
   box-shadow: none;
   margin: 0px auto; }
-
-.supernova {
-  background-color: transparent !important; }
-
-.supernova .form-all,
-.form-all {
-  background-color: transparent; }
 
 ul.page-section {
   padding: 0px; }
