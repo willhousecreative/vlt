@@ -25,7 +25,7 @@ body:not(.header--menu-open) .header-nav-item--active > a {
   );
 }
 :not(.header--menu-open) .header-nav-wrapper .header-nav-item--active a {
-  color: unquote('var(--white-hsl)');
+  color: unquote('hsla(var(--white-hsl), 1)');
 }
 // cart icon
 .header-actions-action .sqs-custom-cart,

@@ -1082,7 +1082,7 @@ body:not(.header--menu-open) .header-nav-item--active > a {
   background-color: linear-gradient(hsl(var(--accent-hsl)),hsl(var(--accent-hsl))); }
 
 :not(.header--menu-open) .header-nav-wrapper .header-nav-item--active a {
-  color: var(--white-hsl); }
+  color: hsla(var(--white-hsl), 1); }
 
 .header-actions-action .sqs-custom-cart,
 .header-menu-actions-action .sqs-custom-cart {
