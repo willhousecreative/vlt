@@ -1,5 +1,5 @@
-section[data-section-id="646ea53e53cb5e53241acaa2"],
-section[data-section-id="647fb1587c65a21db2e98236"] {
+section[data-section-id='646ea53e53cb5e53241acaa2'],
+section[data-section-id='647fb1587c65a21db2e98236'] {
   // Instagram Feed and button
   // in general, do not display
   display: none;
@@ -8,12 +8,13 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
 .homepage {
   // on the home page you can display
 
-  section[data-section-id="646ea53e53cb5e53241acaa2"],
-  section[data-section-id="647fb1587c65a21db2e98236"] {
-    // Instagram Feed
-    display: block;
-  }
-  section[data-section-id="647fb1587c65a21db2e98236"] {
+  // removed the Instagram feed 1-11-23
+  // section[data-section-id="646ea53e53cb5e53241acaa2"],
+  // section[data-section-id="647fb1587c65a21db2e98236"] {
+  //   // Instagram Feed
+  //   display: block;
+  // }
+  section[data-section-id='647fb1587c65a21db2e98236'] {
     // Instagram Button on Mobile
     .fluid-engine {
       grid-template-columns: 1fr;
@@ -22,7 +23,7 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
   }
 
   @include respond(desktop) {
-    section[data-section-id="647fb1587c65a21db2e98236"] {
+    section[data-section-id='647fb1587c65a21db2e98236'] {
       .content-wrapper {
         .sqs-block-button-container {
           width: 653px;
@@ -32,7 +33,7 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
         }
       }
       &.page-section {
-        // Instagram Button 
+        // Instagram Button
         display: block;
         top: 40%;
         left: 37%;
@@ -52,18 +53,16 @@ section[data-section-id="647fb1587c65a21db2e98236"] {
   }
 }
 
-
-
 // Email Signup
-section[data-section-id="646f810a69ab3003b658bea7"] button.newsletter-form-button.sqs-system-button.sqs-editable-button-layout.sqs-editable-button-style.sqs-editable-button-shape.sqs-button-element--primary {
-    width: 100%;
+section[data-section-id='646f810a69ab3003b658bea7']
+  button.newsletter-form-button.sqs-system-button.sqs-editable-button-layout.sqs-editable-button-style.sqs-editable-button-shape.sqs-button-element--primary {
+  width: 100%;
+}
+section[data-section-id='646f810a69ab3003b658bea7']
+  .newsletter-form-button-wrapper.submit-wrapper {
+  min-width: 18rem;
+  @include atMedium {
+    min-width: auto;
+    width: auto;
   }
-  section[data-section-id="646f810a69ab3003b658bea7"] .newsletter-form-button-wrapper.submit-wrapper {
-    min-width: 18rem;
-    @include atMedium{
-      min-width: auto;
-      width: auto;
-    }
-  }
-  
-  
+}
